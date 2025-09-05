@@ -1,0 +1,13 @@
+[project]
+name = "secure-video-hosting"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "argon2-cffi>=25.1.0",
+    "django>=5.2.6",
+    "django-filter>=25.1",
+    "djangorestframework>=3.16.1",
+    "opencv-python>=4.12.0.88",
+    "psycopg2-binary>=2.9.10",
+]
