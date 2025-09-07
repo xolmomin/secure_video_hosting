@@ -1,3 +1,4 @@
+import os.path
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -39,7 +40,7 @@ PASSWORD_HASHERS = [
     "django.contrib.auth.hashers.ScryptPasswordHasher",
 ]
 
-ROOT_URLCONF = "secure_video_hosting.urls"
+ROOT_URLCONF = "root.urls"
 
 TEMPLATES = [
     {
@@ -57,7 +58,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "secure_video_hosting.wsgi.application"
+WSGI_APPLICATION = "root.wsgi.application"
 
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
@@ -100,6 +101,10 @@ USE_I18N = True
 USE_TZ = True
 
 STATIC_URL = "static/"
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+MEDIA_URL = "media/"
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
