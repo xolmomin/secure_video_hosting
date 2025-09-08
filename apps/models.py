@@ -1,9 +1,11 @@
 import datetime
 from uuid import UUID
 import cv2
+from django.contrib.auth.models import AbstractUser
 from django.core.files.uploadedfile import TemporaryUploadedFile
 from django.core.validators import FileExtensionValidator
-from django.db.models import FileField, Model, TextChoices, CharField, TimeField, F, Func, DurationField
+from django.db.models import FileField, Model, TextChoices, CharField, TimeField, F, Func, DurationField, TextField, \
+    IPAddressField
 from django.db.models.fields import UUIDField
 
 
@@ -24,6 +26,24 @@ class UUIDBaseModel(Model):
         required_db_vendor = 'postgresql'
 
 
+class User(AbstractUser, UUIDBaseModel):
+    class Language(TextChoices):
+        ENG = 'en', 'English'
+        RUS = 'ru', 'Russian'
+        UZB = 'uz', 'Uzbek'
+
+    username = None
+    phone = CharField(max_length=11, null=True, unique=True)
+    about = TextField(null=True, blank=True)
+    language = CharField(max_length=5, choices=Language.choices, default=Language.ENG)
+    ip_address = IPAddressField(null=True, blank=True)
+
+    USERNAME_FIELD = 'email'
+
+
+# TODO user default da is_active false boladi
+
+
 class Video(UUIDBaseModel):
     class Type(TextChoices):
         PUBLIC = 'public', 'Public'
@@ -32,6 +52,7 @@ class Video(UUIDBaseModel):
     file = FileField(upload_to='videos/', validators=[FileExtensionValidator(['mp4'])])
     duration = DurationField()
     type = CharField(max_length=10, choices=Type.choices, default=Type.PUBLIC)
+    code = CharField(max_length=10, unique=True)
 
     def get_video_duration(self):
         video = cv2.VideoCapture(self.file.file.temporary_file_path())
@@ -56,10 +77,3 @@ class Video(UUIDBaseModel):
     def save(self, *, force_insert=False, force_update=False, using=None, update_fields=None):
         self.check_video_duration()
         super().save(force_insert=force_insert, force_update=force_update, using=using, update_fields=update_fields)
-
-
-"""
-10.30.11.40
-
-
-"""

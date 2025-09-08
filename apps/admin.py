@@ -13,7 +13,7 @@ class VideoModelAdmin(admin.ModelAdmin):
     def quick_look(self, obj):
         if obj and obj.file:
             modal_id = f"videoModal-{obj.pk or 'new'}"
-            return format_html(
+            return format_html( # TODO deprecated
                 """
                 <a href="#" class="button" onclick="openVideoModal('{id}'); return false;">▶ Quick Look</a>
 

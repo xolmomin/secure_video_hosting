@@ -7,3 +7,3029 @@ storage
 minio
 
 500 * 3Gb = 1,5Tb
+
+
+
+https://boomstream.com/documentation/api/player-api#calls
+
+
+
+
+task
+1. online.pdp dagi barcha datalarni olish (scraping) .json file ga
+
+
+courses.json
+[
+    {
+        "type": "MAIN",
+        "url": "telegram-bot-yaratish",
+        "title": "Telegram Bot yaratish",
+        "data":
+    },
+
+]
+https://online.pdp.uz/api/course/get_for_nav_menu?isOnline=true
+{
+    "success": true,
+    "message": null,
+    "data": {
+        "courses": [
+            {
+                "type": "BACKEND",
+                "url": "python-development-2025",
+                "title": "Python Development 2025"
+            },
+            {
+                "type": "MAIN",
+                "url": "telegram-bot-yaratish",
+                "title": "Telegram Bot yaratish"
+            },
+            {
+                "type": "FREE",
+                "url": "dasturlash-uchun-boshlangich-matematika",
+                "title": "Dasturlash uchun boshlang'ich matematika"
+            },
+            {
+                "type": "MAIN",
+                "url": "foundation-2024",
+                "title": "Foundation 2024"
+            },
+            {
+                "type": "MOBILE",
+                "url": "flutter-development-2024",
+                "title": "Flutter Development 2024"
+            },
+            {
+                "type": "BACKEND",
+                "url": "net-development",
+                "title": ".NET Development"
+            },
+            {
+                "type": "BACKEND",
+                "url": "spring-development-2023",
+                "title": "Spring Development 2023"
+            },
+            {
+                "type": "BACKEND",
+                "url": "database-development-2023",
+                "title": "Database Development 2023"
+            },
+            {
+                "type": "BACKEND",
+                "url": "java-development-2023",
+                "title": "Java Development 2023"
+            },
+            {
+                "type": "BACKEND",
+                "url": "c-development",
+                "title": "C# Development"
+            },
+            {
+                "type": "FRONTEND",
+                "url": "reactjs-development",
+                "title": "ReactJS Development"
+            },
+            {
+                "type": "FRONTEND",
+                "url": "frontend-development",
+                "title": "Frontend Development"
+            },
+            {
+                "type": "BACKEND",
+                "url": "data-structures-and-algorithms",
+                "title": "Data Structures and Algorithms"
+            },
+            {
+                "type": "BACKEND",
+                "url": "spring-development",
+                "title": "Spring Development"
+            },
+            {
+                "type": "BACKEND",
+                "url": "django-development",
+                "title": "Django development"
+            },
+            {
+                "type": "MAIN",
+                "url": "pdp-start",
+                "title": "PDP START"
+            },
+            {
+                "type": "MOBILE",
+                "url": "flutter-app-development",
+                "title": "Flutter App Development"
+            }
+        ],
+        "roadmaps": [
+            {
+                "url": "JavaBackend",
+                "comingSoon": null,
+                "title": "Java Backend"
+            },
+            {
+                "url": ".NETBackend",
+                "comingSoon": null,
+                "title": ".NET Backend"
+            },
+            {
+                "url": "AndroidAppDevelopment",
+                "comingSoon": null,
+                "title": "Android App Development"
+            },
+            {
+                "url": "PythonBackend",
+                "comingSoon": null,
+                "title": "Python Backend"
+            },
+            {
+                "url": "iOS",
+                "comingSoon": null,
+                "title": "iOS"
+            },
+            {
+                "url": "Flutter",
+                "comingSoon": null,
+                "title": "Flutter"
+            },
+            {
+                "url": "Frontend",
+                "comingSoon": null,
+                "title": "Frontend"
+            },
+            {
+                "url": "Android",
+                "comingSoon": null,
+                "title": "Android"
+            }
+        ],
+        "bootcamps": [
+            {
+                "discountTime": null,
+                "url": "PDPSTART",
+                "description": "IOS development",
+                "status": "&nbsp;",
+                "discountPercent": null,
+                "discountExpireDate": null,
+                "comingSoon": false,
+                "title": "PDPSTART"
+            },
+            {
+                "discountTime": null,
+                "url": "JavaBackendDevelopment",
+                "description": "Java Backend Development",
+                "status": "&nbsp;",
+                "discountPercent": null,
+                "discountExpireDate": null,
+                "comingSoon": false,
+                "title": "Java Backend Development"
+            },
+            {
+                "discountTime": null,
+                "url": "FrontendDevelopment",
+                "description": "Frontend Development",
+                "status": "&nbsp;",
+                "discountPercent": null,
+                "discountExpireDate": null,
+                "comingSoon": false,
+                "title": "Frontend Development"
+            },
+            {
+                "discountTime": null,
+                "url": "AndroidAppDevelopment",
+                "description": "Android App Development",
+                "status": "&nbsp;",
+                "discountPercent": null,
+                "discountExpireDate": null,
+                "comingSoon": false,
+                "title": "Android App Development"
+            },
+            {
+                "discountTime": null,
+                "url": "JAVADEVELOPMENT",
+                "description": "JAVA DEVELOPMENT ",
+                "status": "&nbsp;",
+                "discountPercent": null,
+                "discountExpireDate": null,
+                "comingSoon": false,
+                "title": "JAVA DEVELOPMENT"
+            },
+            {
+                "discountTime": null,
+                "url": "PythonDevelopment",
+                "description": "Python Development",
+                "status": "&nbsp;",
+                "discountPercent": null,
+                "discountExpireDate": null,
+                "comingSoon": false,
+                "title": "Python Development"
+            },
+            {
+                "discountTime": null,
+                "url": "FlutterDevelopment",
+                "description": "Flutter bir vaqtning oʻzida Android, iOS, Windows, Mac, Linux operatsion tizimlari uchun dasturlar yarata oladigan yagona tizimdir. Agar Siz birdaniga ushbu operatsion tizimlar uchun dasturiy taʼminot yaratmoqchi boʻlsangiz, Flutter eng toʻgʻri tanlov.",
+                "status": "&nbsp;",
+                "discountPercent": null,
+                "discountExpireDate": null,
+                "comingSoon": false,
+                "title": "Flutter Development"
+            },
+            {
+                "discountTime": null,
+                "url": "Foundation",
+                "description": "Foundation",
+                "status": "&nbsp;",
+                "discountPercent": null,
+                "discountExpireDate": null,
+                "comingSoon": false,
+                "title": "Foundation"
+            },
+            {
+                "discountTime": null,
+                "url": ".NETdevelopment",
+                "description": "C# dasturlash tili - obyektga yo’naltirilgan, zamonaviy dasturlash tili hisoblanib, dasturchilarga .NET platformasida ishga tushuvchi xavfsiz va mustahkam dasturlar qurishda qo’l keladi.",
+                "status": "&nbsp;",
+                "discountPercent": null,
+                "discountExpireDate": null,
+                "comingSoon": false,
+                "title": ".NET development"
+            }
+        ],
+        "noRoadmapCourses": [
+            {
+                "id": "fc1ddaf0-0bee-4677-a4e7-f0fb92d2f281",
+                "url": "dasturlash-uchun-boshlangich-matematika",
+                "comingSoon": false,
+                "title": "Dasturlash uchun boshlang'ich matematika"
+            },
+            {
+                "id": "61a24436-41f5-498a-90b3-bc1ad4f27ee4",
+                "url": "telegram-bot-yaratish",
+                "comingSoon": false,
+                "title": "Telegram Bot yaratish"
+            }
+        ],
+        "courseTypes": {
+            "MAIN": "Asosiy",
+            "FREE": "Bepul",
+            "FRONTEND": "Frontend",
+            "BACKEND": "Backend",
+            "MOBILE": "Mobil",
+            "OTHERS": "Boshqalar"
+        }
+    },
+    "total": null
+}
+
+python-development-2025.json
+https://online.pdp.uz/api/course?url=python-development-2025
+{
+    "success": true,
+    "message": "success",
+    "data": {
+        "id": "cca8b866-465c-4563-a80c-d4adcfdd97b5",
+        "title": "Python Development 2025",
+        "introVideoUrl": "-",
+        "description": "Python Development 2025",
+        "lessonCount": 54,
+        "customCourseParts": [
+            {
+                "id": "aaee2b54-d626-44f9-a1f1-3acb4b6b4dd1",
+                "amount": 590000.0,
+                "amountOnsite": 0.0,
+                "oldAmount": 0.0,
+                "oldAmountOnsite": 0.0,
+                "title": "Python Basic",
+                "description": "Modul 1",
+                "lessons": [
+                    {
+                        "id": "443a9e5b-7287-41b3-bc99-687335b3bf1c",
+                        "title": "Python ga kirish, o’zgaruvchilar, o’zgarmaslar va Pycharmni o’rnatish",
+                        "url": "python-ga-kirish-ozgaruvchilar-ozgarmaslar-va-pycharmni-ornatish",
+                        "description": "Python ga kirish, o’zgaruvchilar, o’zgarmaslar va Pycharmni o’rnatish",
+                        "parts": [
+                            {
+                                "id": "17e94179-ab24-4080-95e4-64323e7bdcd5",
+                                "ord": 1,
+                                "title": "Pythonga kirish",
+                                "description": "Pythonga kirish",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "fb06961c-a981-460e-b3a7-93cd2003141d",
+                                "ord": 2,
+                                "title": "Linuxda pycharm o'rnatish va to'g'rilash",
+                                "description": "Linuxda pycharm o'rnatish va to'g'rilash",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "92e0a055-374d-48e5-80ec-41af65e28cbe",
+                                "ord": 3,
+                                "title": "Windows va Macda python, pycharm o'rnatish",
+                                "description": "Windows va Macda python, pycharm o'rnatish",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "f88aa0ad-a5ae-4296-b85e-b2039d89f042",
+                                "ord": 4,
+                                "title": "Pythonda o'zgaruvchilar va o'zgarmaslar",
+                                "description": "Pythonda o'zgaruvchilar va o'zgarmaslar",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "c0c37a43-ba4a-4299-ba2e-23189acfec21",
+                        "title": "Data typelar va ularning turlari, methodlari",
+                        "url": "data-typelar-va-ularning-turlari-methodlari",
+                        "description": "Data typelar va ularning turlari, methodlari",
+                        "parts": [
+                            {
+                                "id": "269aecab-c865-46d9-b30a-1b3e57763574",
+                                "ord": 1,
+                                "title": "Data typelar va ularning turlari, methodlari I",
+                                "description": "Data typelar va ularning turlari, methodlari I",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "4803022c-c390-4df1-a936-ce209213c994",
+                                "ord": 2,
+                                "title": "Data typelar va ularning turlari, methodlari II",
+                                "description": "Data typelar va ularning turlari, methodlari II",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "a36fc9a4-0cb4-4141-b32e-7ea146e92e69",
+                                "ord": 3,
+                                "title": "Data typelar va ularning turlari, methodlari bo'yicha mashqlar",
+                                "description": "Data typelar va ularning turlari, methodlari bo'yicha mashqlar",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "d964143b-1d76-40df-98ed-f34fb4793e2f",
+                        "title": "set va dict methodlari va ularni qo’llanilishi",
+                        "url": "set-va-dict-methodlari-va-ularni-qollanilishi",
+                        "description": "set va dict methodlari va ularni qo’llanilishi",
+                        "parts": [
+                            {
+                                "id": "389efe53-e780-4c0f-97a6-15d12a1f073e",
+                                "ord": 1,
+                                "title": "Set va uning methodlari",
+                                "description": "Set va uning methodlari",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "f235e216-fbce-42bf-ab9b-ccb94f8c3648",
+                                "ord": 1,
+                                "title": "Dict methods va builtin funksiyalari",
+                                "description": "Dict methods va builtin funksiyalari",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "69d8686b-07cb-4fee-a37e-c54a762bad8d",
+                                "ord": 2,
+                                "title": "Set va uning methodlari II",
+                                "description": "Set va uning methodlari II",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "3a7889d6-9bdf-4c2c-bf2a-f8867ef58222",
+                        "title": "raw and f string, string methodlari",
+                        "url": "raw-and-f-string-string-methodlari",
+                        "description": "raw and f string, string methodlari",
+                        "parts": [
+                            {
+                                "id": "6b9531bf-42e1-4ef9-beba-5d80fab2c2b5",
+                                "ord": 1,
+                                "title": "f, raw string va metodlari I",
+                                "description": "f, raw string va metodlari I",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "f47e2f37-8f08-46f3-b4b0-62a4ad5acb3d",
+                                "ord": 2,
+                                "title": "String metodlari",
+                                "description": "String metodlari",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "b51f9b82-e0ca-4898-82ba-1dc0bbc719a2",
+                                "ord": 3,
+                                "title": "String metodlari II",
+                                "description": "String metodlari II",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "7dd0e540-2d4b-4e67-b4b9-b8bca48e423d",
+                        "title": "Arifmetik va ikkilik operatorlari",
+                        "url": "arifmetik-va-ikkilik-operatorlari",
+                        "description": "Arifmetik va ikkilik operatorlari",
+                        "parts": [
+                            {
+                                "id": "9054dbf0-8a73-43ce-9528-31f809451533",
+                                "ord": 1,
+                                "title": "Pythonda operator turlari va sanoq sistemalari",
+                                "description": "Pythonda operator turlari va sanoq sistemalari",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "4e824baf-9e6a-4229-a54f-bc513f2bb1a9",
+                                "ord": 2,
+                                "title": "Sanoq sistemalari",
+                                "description": "Sanoq sistemalari",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "ef59a066-0371-4951-9679-3524d6fa0bc9",
+                                "ord": 3,
+                                "title": "Matematik amallar ustida mashqlar",
+                                "description": "Matematik amallar ustida mashqlar",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "46bf3b28-ebb3-4721-a82e-085c5de4300e",
+                        "title": "loop & condition amallari",
+                        "url": "loop--condition-amallari",
+                        "description": "loop & condition amallari",
+                        "parts": [
+                            {
+                                "id": "7a1f31d8-1d34-4864-9c8d-f6720feb3d14",
+                                "ord": 1,
+                                "title": "Loop for va while",
+                                "description": "Loop for va while",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "50d292c0-b28b-4ec5-aca6-ecd2bdd6fe41",
+                                "ord": 2,
+                                "title": "Condition bilan ishlash (if, match case)",
+                                "description": "Condition bilan ishlash (if, match case)",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "2081f170-bac6-4613-b089-4c055e24e306",
+                                "ord": 3,
+                                "title": "Matematik kutubxonaga doir misollar",
+                                "description": "Matematik kutubxonaga doir misollar",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "36b9267f-e706-42f3-8718-8c1941e88359",
+                        "title": "built-in funksiyalar (collections, itertools)",
+                        "url": "built-in-funksiyalar-collections-itertools",
+                        "description": "built-in funksiyalar (collections, itertools)",
+                        "parts": [
+                            {
+                                "id": "509b270a-2bb0-49e3-b926-cd41b579a000",
+                                "ord": 1,
+                                "title": "Python itertools kutubxonasi 1",
+                                "description": "Python itertools kutubxonasi 1",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "35fbda04-6d98-4dad-b10e-8d4046bdbe51",
+                                "ord": 2,
+                                "title": "Python itertools kutubxonasi 2",
+                                "description": "Python itertools kutubxonasi 2",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "ec734335-346e-4fbf-8d36-bd5a394976d5",
+                                "ord": 3,
+                                "title": "Collection kutubxonasi",
+                                "description": "Collection kutubxonasi",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "8e102d93-68e3-4932-9147-f45a863dfa33",
+                        "title": "Funksiyalar va lambda I",
+                        "url": "funksiyalar-va-lambda-i",
+                        "description": "Funksiyalar va lambda I",
+                        "parts": [
+                            {
+                                "id": "f614c568-d14f-4f28-88ba-888f3408ea2b",
+                                "ord": 1,
+                                "title": "Funksiya va anonim funksiya (lambda)",
+                                "description": "Funksiya va anonim funksiya (lambda)",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "a6a90f0f-50d5-4200-ba30-84c8140f034d",
+                                "ord": 2,
+                                "title": "filter, map, zip, reduce funksiyalari",
+                                "description": "filter, map, zip, reduce funksiyalari",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "51f23228-f097-48b2-a9f4-2c0dbe75d0c4",
+                        "title": "Funksiyalar va lambda II",
+                        "url": "funksiyalar-va-lambda-ii",
+                        "description": "Funksiyalar va lambda II",
+                        "parts": [
+                            {
+                                "id": "78f88bc4-cb21-4221-8519-afe06ba9bd9d",
+                                "ord": 1,
+                                "title": "Vaqtlar bilan ishlash - datetime",
+                                "description": "Vaqtlar bilan ishlash - datetime",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "f0f2672e-b4bd-447f-aeee-d8bc521f1511",
+                                "ord": 2,
+                                "title": "timeit kutubxonasi bilan ishlash",
+                                "description": "timeit kutubxonasi bilan ishlash",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "6527f4dd-d59b-4b84-aeb5-41040fc65867",
+                        "title": "Type hinting, mypy",
+                        "url": "type-hinting-mypy",
+                        "description": "Type hinting, mypy",
+                        "parts": [
+                            {
+                                "id": "57fa4f91-a345-4fce-9fbb-1f682d2f9279",
+                                "ord": 1,
+                                "title": "mypy va type hinting haqida",
+                                "description": "mypy va type hinting haqida",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "e01897c5-5d2e-4401-8bd1-8b1ee5f2656a",
+                                "ord": 2,
+                                "title": "matrix va string bo'yicha misollar I",
+                                "description": "matrix va string bo'yicha misollar I",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "f3625215-8dd8-4f9c-96cc-8630846bbeb0",
+                                "ord": 3,
+                                "title": "matrix va string bo'yicha misollar II",
+                                "description": "matrix va string bo'yicha misollar II",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "392874ad-fa7d-46f8-8cf8-2dfce7378a24",
+                        "title": "Cafe projecti (terminal orqali)",
+                        "url": "cafe-projecti-terminal-orqali",
+                        "description": "Cafe projecti (terminal orqali)",
+                        "parts": [
+                            {
+                                "id": "6b25666f-92dc-4dac-b98d-ebcfdfa0aae4",
+                                "ord": 1,
+                                "title": "Cafe loyihasini ishlab chiqish I ",
+                                "description": "Cafe loyihasini ishlab chiqish",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "0ddbbf58-97cf-4318-baca-7164245a8937",
+                                "ord": 2,
+                                "title": "Cafe loyihasini ishlab chiqish II",
+                                "description": "Cafe loyihasini ishlab chiqish II",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    }
+                ],
+                "selected": false,
+                "buyed": null,
+                "supportDays": 45,
+                "stopped": null,
+                "currentLessonUrl": "",
+                "sale": true
+            },
+            {
+                "id": "c9864158-0e19-49ca-b181-fadf9f567686",
+                "amount": 690000.0,
+                "amountOnsite": 0.0,
+                "oldAmount": 0.0,
+                "oldAmountOnsite": 0.0,
+                "title": "Python Advanced",
+                "description": "OOP kirish, Class & Object",
+                "lessons": [
+                    {
+                        "id": "e7b626e1-8aaa-4499-a649-42d8370b0c44",
+                        "title": "OOP kirish, Class & Object",
+                        "url": "oop-kirish-class--object",
+                        "description": "OOP kirish, Class & Object",
+                        "parts": [
+                            {
+                                "id": "f76151ae-24ca-4fc5-b940-213f3115d7d5",
+                                "ord": 1,
+                                "title": "OOP ga kirish",
+                                "description": "OOP ga kirish",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "1f583977-dbe7-478a-bda0-6bef6ddc3b3c",
+                                "ord": 2,
+                                "title": "Class va Object 1-qism",
+                                "description": "Class va Object 1-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "c1211b34-9cdd-4e3c-b9f5-317248ccd850",
+                                "ord": 3,
+                                "title": "Class va Object 2-qism",
+                                "description": "Class va Object 2-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "b943fe42-d8e5-43b6-bfa5-babc5bb324f1",
+                        "title": "Inheritance, Encapsulation, Polymorphism",
+                        "url": "inheritance-encapsulation-polymorphism",
+                        "description": "Inheritance, Encapsulation, Polymorphism",
+                        "parts": [
+                            {
+                                "id": "3a9c81bd-d3f0-493d-b568-c5435347667d",
+                                "ord": 1,
+                                "title": "Inheritance, Encapsulation",
+                                "description": "Inheritance, Encapsulation",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "58f60f41-7349-4500-b32b-effea9d699f0",
+                                "ord": 2,
+                                "title": "Polymorphism",
+                                "description": "Polymorphism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "9b457d9c-fe11-494a-baed-868f7049fa84",
+                                "ord": 3,
+                                "title": "Amaliyot va metodlar",
+                                "description": "Amaliyot va metodlar",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "c8285d4e-9bc9-4b2f-a6c4-725416a9323e",
+                        "title": "Abstraction, Meta class",
+                        "url": "abstraction-meta-class",
+                        "description": "Abstraction, Meta class",
+                        "parts": [
+                            {
+                                "id": "805a41ff-e3e5-4402-a417-1241c2cd8844",
+                                "ord": 1,
+                                "title": "Abstraction",
+                                "description": "Abstraction",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "91313269-751c-453f-9d9c-f165faf27824",
+                                "ord": 2,
+                                "title": "Metaclass",
+                                "description": "Metaclass",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "b174b266-5515-4202-bb60-798a84229882",
+                                "ord": 3,
+                                "title": "Praktika metaclass va abstraction",
+                                "description": "Praktika metaclass va abstraction",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "80ae32ba-84a5-4f3f-acb3-8571e06ca9ed",
+                        "title": "Sending email,  Fayllar bilan ishlash,  Binary file",
+                        "url": "sending-email--fayllar-bilan-ishlash--binary-file",
+                        "description": "Sending email, Fayllar bilan ishlash, Binary file",
+                        "parts": [
+                            {
+                                "id": "63b3ef5e-77a6-4f03-b370-e6ee42a0dd46",
+                                "ord": 1,
+                                "title": "Smptlib bilan ishlash",
+                                "description": "Smptlib bilan ishlash",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "8c71e2dd-1e90-4cc8-bdd3-086e9a9d66fd",
+                                "ord": 2,
+                                "title": "Smptlik bilan ishlash davomi, fayl bilan ishlash",
+                                "description": "Smptlik bilan ishlash davomi, fayl bilan ishlash",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "242c7ddd-cbd2-437f-8673-8c1aaebe07a7",
+                                "ord": 3,
+                                "title": "binary fayl, base64 praktika",
+                                "description": "binary fayl, base64 praktika",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "8f71c039-f64a-4a41-a9dc-2b32f8753293",
+                        "title": "Iterator, Generator,  Context manager,  Decorator",
+                        "url": "iterator-generator--context-manager--decorator",
+                        "description": "Iterator, Generator, Context manager, Decorator",
+                        "parts": [
+                            {
+                                "id": "e6d44eaf-1d97-4793-9d31-788b8aafd9d9",
+                                "ord": 1,
+                                "title": "Iterator va Generator",
+                                "description": "Iterator va Generator",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "15a7ca96-4e2b-48b7-87e1-bbca6e8a7d29",
+                                "ord": 2,
+                                "title": "Custom context manager",
+                                "description": "Custom context manager",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "f8f8b49d-126a-427e-89fc-cc3c88974ed0",
+                                "ord": 3,
+                                "title": "Decorator",
+                                "description": "Decorator",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "f0718a62-9a54-4d33-8795-a1014f99b7d3",
+                                "ord": 4,
+                                "title": "Decorator praktika",
+                                "description": "Decorator praktika",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "4d751161-831e-4fcd-8441-425c2af49808",
+                        "title": "os, pathlib, sys, logging, argparse",
+                        "url": "os-pathlib-sys-logging-argparse",
+                        "description": "os, pathlib, sys, logging, argparse",
+                        "parts": [
+                            {
+                                "id": "45437651-c563-49e6-9c4f-2916ead2b183",
+                                "ord": 1,
+                                "title": "Oldingi mavzu takrori - (decorator) davomi",
+                                "description": "Oldingi mavzu takrori - (decorator) davomi",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "50222025-3a90-47ec-b554-6780f59fe7e4",
+                                "ord": 2,
+                                "title": "linux basic commands va os, path kutubxonasi",
+                                "description": "linux basic commands va os, path kutubxonasi",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "e5027cc9-ccf2-4d21-98bb-eabf46bf82be",
+                                "ord": 3,
+                                "title": " sys va logger bilan ishlash",
+                                "description": " sys va logger bilan ishlash",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "e1d4d027-1dd7-435a-a2ff-d0f1f32d7f89",
+                                "ord": 4,
+                                "title": "argparse kutubxonasi",
+                                "description": "argparse kutubxonasi",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "cb5294b8-b38d-41d1-8c85-212d238c350a",
+                        "title": "Python Virtual  Muhitlari: venv,  pipenv & poetry",
+                        "url": "python-virtual--muhitlari-venv--pipenv--poetry",
+                        "description": "Python Virtual Muhitlari: venv, pipenv & poetry",
+                        "parts": [
+                            {
+                                "id": "24a702ee-254b-4cd3-ad52-653b73d9e052",
+                                "ord": 1,
+                                "title": "Virtual muhit bilan ishlash",
+                                "description": "Virtual muhit bilan ishlash",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "703902d5-582c-4101-8de0-30be071c46e5",
+                                "ord": 2,
+                                "title": "poetry va pipenv",
+                                "description": "poetry va pipenv",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "75ca37b4-2356-4365-a25b-74042e03faa0",
+                                "ord": 3,
+                                "title": "json kutubxonasi bilan ishlash I",
+                                "description": "json kutubxonasi bilan ishlash I",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "6dce9596-42af-4e64-9eea-c5783571ba58",
+                        "title": "Multithreading, Multiprocessing",
+                        "url": "multithreading-multiprocessing",
+                        "description": "Multithreading, Multiprocessing",
+                        "parts": [
+                            {
+                                "id": "b3998678-ada9-4885-b820-d03314a1b624",
+                                "ord": 1,
+                                "title": "Multithreading va Multiprocessing",
+                                "description": "Multithreading va Multiprocessing",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "a3896fd2-e3e0-465b-b2a5-e682a122356b",
+                                "ord": 2,
+                                "title": "threading kutubxonasi",
+                                "description": "threading kutubxonasi",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "54e1e5f6-5b64-4613-9383-6cc1fe494460",
+                                "ord": 3,
+                                "title": "processing va debug bilan ishlash",
+                                "description": "processing va debug bilan ishlash",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "55b6d0c0-6dba-4a83-a8a8-00bf54c8cd19",
+                        "title": "Async, Corountines",
+                        "url": "async-corountines",
+                        "description": "Async, Corountines",
+                        "parts": [
+                            {
+                                "id": "8870d808-4d33-49de-96ca-af097d725fa8",
+                                "ord": 1,
+                                "title": "Async va Event loop",
+                                "description": "Async va Event loop",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "02282fc0-7119-45c1-94c0-74ae506aabfd",
+                                "ord": 2,
+                                "title": "Coroutines",
+                                "description": "Coroutines",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "a5cd7c28-62c5-4531-9278-6a1986d0a097",
+                                "ord": 3,
+                                "title": "Async code bilan ishlash",
+                                "description": "Async code bilan ishlash",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "6efd21d7-4572-4544-8640-d2bec51f741f",
+                        "title": "Publish own package on PyPI",
+                        "url": "publish-own-package-on-pypi",
+                        "description": "Publish own package on PyPI",
+                        "parts": [
+                            {
+                                "id": "8496443a-c5b7-4a84-b6e9-34f2dbd81665",
+                                "ord": 1,
+                                "title": "Pip bilan ishlash va kutubxona yaratish",
+                                "description": "Pip bilan ishlash va kutubxona yaratish",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "e69f7a19-831a-42d9-858c-348b058db755",
+                                "ord": 2,
+                                "title": "Pip bilan ishlash va kutubxona yaratish 2-qism",
+                                "description": "Pip bilan ishlash va kutubxona yaratish 2-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "123409c2-a651-444f-bcc9-780ccc51e027",
+                                "ord": 3,
+                                "title": "Fayllar va json bilan ishlaydigan kutubxona yaratish",
+                                "description": "Fayllar va json bilan ishlaydigan kutubxona yaratish",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    }
+                ],
+                "selected": false,
+                "buyed": null,
+                "supportDays": 45,
+                "stopped": null,
+                "currentLessonUrl": "",
+                "sale": true
+            },
+            {
+                "id": "d97bb06c-aa14-44b2-87b3-7ce4cfba36d4",
+                "amount": 790000.0,
+                "amountOnsite": 0.0,
+                "oldAmount": 0.0,
+                "oldAmountOnsite": 0.0,
+                "title": "Telegram Bot (aiogram)",
+                "description": "Telegram Bot (aiogram)",
+                "lessons": [
+                    {
+                        "id": "2eb24994-2168-4a9a-af0f-38aa192db773",
+                        "title": "Telegram bot ga kirish, basic methods",
+                        "url": "telegram-bot-ga-kirish-basic-methods",
+                        "description": "Telegram bot ga kirish, basic methods",
+                        "parts": [
+                            {
+                                "id": "51c13501-3fd6-44c7-9d0a-73830d7f1ea3",
+                                "ord": 1,
+                                "title": "Telegram bot ga kirish",
+                                "description": "Telegram bot ga kirish",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "861b67d8-c1e9-442e-9381-f2b29ed09831",
+                                "ord": 2,
+                                "title": "Telegram bot basic methods",
+                                "description": "Telegram bot basic methods",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "877c8d4e-8b47-430f-aad5-da5bf0c110e6",
+                                "ord": 3,
+                                "title": "Telegram botda fayl yuborish va qabul qilish",
+                                "description": "Telegram botda fayl yuborish va qabul qilish",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "28977de9-f0a9-42cf-9168-a98dcf2e30d5",
+                        "title": "Chat action, Button & InlineButton",
+                        "url": "chat-action-button--inlinebutton",
+                        "description": "Chat action, Button & InlineButton",
+                        "parts": [
+                            {
+                                "id": "4a6f7484-3d9b-4ff5-8333-81bc2afe5336",
+                                "ord": 1,
+                                "title": "Chat action va message bilan ishlash",
+                                "description": "Chat action va message bilan ishlash",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "424f7c77-ea09-42f7-a0bf-66e2d3d0d8b4",
+                                "ord": 2,
+                                "title": "Button & InlineButton ishlash",
+                                "description": "Button & InlineButton ishlash",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "c923a289-b6de-43f4-8cbb-b7bb87c0c04a",
+                                "ord": 3,
+                                "title": "Button & InlineButton ishlashga doir misol 1-qism",
+                                "description": "Button & InlineButton ishlashga doir misol 1-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "f0a3fea0-f7c4-4bfe-9010-899911af359b",
+                        "title": "Routers, Structure, Telegram Commands",
+                        "url": "routers-structure-telegram-commands",
+                        "description": "Routers, Structure, Telegram Commands",
+                        "parts": [
+                            {
+                                "id": "23bdb902-0b36-4c14-bd66-21ce9a6ceda1",
+                                "ord": 1,
+                                "title": "Komanda va filterlar bilan ishlash",
+                                "description": "Komanda va filterlar bilan ishlash",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "2e4100f2-64cb-432e-ae76-3bfc197c8e0f",
+                                "ord": 2,
+                                "title": "Custom filter yaratish",
+                                "description": "Custom filter yaratish",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "e36632be-8767-4f92-82f3-a7259ffb8efe",
+                                "ord": 3,
+                                "title": "Router lar bilan ishlash",
+                                "description": "Router lar bilan ishlash",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "08eb348e-5255-4dde-a513-e2754549b5c0",
+                        "title": "FSM Context",
+                        "url": "fsm-context",
+                        "description": "FSM Context",
+                        "parts": [
+                            {
+                                "id": "e001ff91-7bac-4fb3-ac21-488df17517bc",
+                                "ord": 1,
+                                "title": "FSM Context bilan ishlash",
+                                "description": "FSM Context bilan ishlash",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "411bd615-6927-4221-9424-b3cfa782f4db",
+                                "ord": 2,
+                                "title": "Komandalar bilan ishlash",
+                                "description": "Komandalar bilan ishlash",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "2783515c-8d4b-4707-b6aa-e1f725a9e60f",
+                                "ord": 3,
+                                "title": "Forward Message bilan ishlash",
+                                "description": "Forward Message bilan ishlash",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "cca2d633-7774-4bc2-8186-4582062aae82",
+                        "title": "InlineMode",
+                        "url": "inlinemode",
+                        "description": "InlineMode",
+                        "parts": [
+                            {
+                                "id": "6ff3748f-2bb7-45f8-9f60-a8c6cc65fffa",
+                                "ord": 1,
+                                "title": "InlineMode bilan ishlash",
+                                "description": "InlineMode bilan ishlash",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "2eb356b1-b55d-45b5-91e4-68083945a846",
+                                "ord": 2,
+                                "title": "InlineMode da fayl bilan ishlash",
+                                "description": "InlineMode da fayl bilan ishlash",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "d3e66251-5eb1-457b-8920-4cb8634229b0",
+                                "ord": 3,
+                                "title": "startlink yaratish (referral bilan ishlash)",
+                                "description": "startlink yaratish (referral bilan ishlash)",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "d2f441d3-f8f4-4ee8-92f2-343eed35f3cf",
+                        "title": "Middleware",
+                        "url": "middleware",
+                        "description": "Middleware",
+                        "parts": [
+                            {
+                                "id": "c4356acd-8e2c-43e5-b33b-32e778a00291",
+                                "ord": 1,
+                                "title": "Middleware, kanalga majburiy azo bot",
+                                "description": "Middleware, kanalga majburiy azo bot",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "95819604-59fd-4e39-9061-9d73722236ad",
+                                "ord": 2,
+                                "title": "Middleware bilan azolikni tekshirish",
+                                "description": "Middleware bilan azolikni tekshirish",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "902ff8d0-518f-4c95-9502-74c52c2afb80",
+                                "ord": 3,
+                                "title": "RedisDict malumotlarni saqlash",
+                                "description": "RedisDict malumotlarni saqlash",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "f6b7dfbd-bbff-42ba-ae0d-d5bd3f55b7ab",
+                        "title": "i18n",
+                        "url": "i18n",
+                        "description": "i18n",
+                        "parts": [
+                            {
+                                "id": "fd8f0fbd-d232-4796-93c6-0b139ca8dcb9",
+                                "ord": 1,
+                                "title": "i18n ga kirish va Makefile",
+                                "description": "i18n ga kirish va Makefile",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "6f737e92-7b19-476f-aaa6-8df02c50f45d",
+                                "ord": 2,
+                                "title": "i18n tarjimalarni kiritish",
+                                "description": "i18n tarjimalarni kiritish",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "74e5dd9f-f44c-4a0a-afd8-6a9d67699a1e",
+                                "ord": 3,
+                                "title": "i18n bilan ishlash",
+                                "description": "i18n bilan ishlash",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "607b5224-04a2-42f0-99cf-3bf53c6c1425",
+                        "title": "Redis, Apscheduler",
+                        "url": "redis-apscheduler",
+                        "description": "Redis, Apscheduler",
+                        "parts": [
+                            {
+                                "id": "b5f6a1be-7ea5-4faf-922d-51cba40d4811",
+                                "ord": 1,
+                                "title": "Redis va redisdict state da ishlatish",
+                                "description": "Redis va redisdict state da ishlatish",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "5ff80228-efb0-4e17-97e6-03ab3ae8b0a0",
+                                "ord": 2,
+                                "title": "redisstorage da saqlash",
+                                "description": "redisstorage da saqlash",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "01757310-34b8-4a3d-ab21-ee7f6864d9df",
+                                "ord": 3,
+                                "title": "apscheduler va dispatchersiz bot",
+                                "description": "apscheduler va dispatchersiz bot",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "90e4e6c7-de3f-4055-984a-366fdd346038",
+                        "title": "Deploy AWS, DigitalOcean",
+                        "url": "deploy-aws-digitalocean",
+                        "description": "Deploy AWS, DigitalOcean",
+                        "parts": [
+                            {
+                                "id": "ee386971-9417-4c09-a2ac-57c847b1fd2b",
+                                "ord": 1,
+                                "title": "Serverlar haqida",
+                                "description": "Serverlar haqida",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "ca62e833-14f8-4e7e-803d-184992ea8921",
+                                "ord": 2,
+                                "title": " Serverni sozlash (nginx, service)",
+                                "description": " Serverni sozlash (nginx, service)",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "f444a911-1576-46d7-8659-fa88fc041bf4",
+                                "ord": 3,
+                                "title": "Serverga ssl qo'yish va botni webhook qilish",
+                                "description": "Serverga ssl qo'yish va botni webhook qilish",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "0f663a60-dd42-4375-a227-c48c28c8f481",
+                        "title": "Reminder Telegram Bot (bajariladigan ishlarni eslatib turuvchi bot)",
+                        "url": "reminder-telegram-bot-bajariladigan-ishlarni-eslatib-turuvchi-bot",
+                        "description": "Reminder Telegram Bot (bajariladigan ishlarni eslatib turuvchi bot)",
+                        "parts": [
+                            {
+                                "id": "0d99b94b-4817-4519-b664-534ba954c348",
+                                "ord": 1,
+                                "title": "Reminder bot, user va admin handler ga ajratish",
+                                "description": "Reminder bot, user va admin handler ga ajratish",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "42f6d013-c824-4153-ac97-2c492e1698c2",
+                                "ord": 2,
+                                "title": "Reminder botga baza ulash va tasklarni qo'shish",
+                                "description": "Reminder botga baza ulash va tasklarni qo'shish",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "3cc76d59-ca40-4705-a7d0-d08f76648239",
+                                "ord": 3,
+                                "title": "Reminder bot da tasklarni eslatib turish",
+                                "description": "Reminder bot da tasklarni eslatib turish",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    }
+                ],
+                "selected": false,
+                "buyed": null,
+                "supportDays": 45,
+                "stopped": null,
+                "currentLessonUrl": "",
+                "sale": true
+            },
+            {
+                "id": "c6255d66-ca14-4e50-8c9e-d0d11bc950cc",
+                "amount": 790000.0,
+                "amountOnsite": 0.0,
+                "oldAmount": 0.0,
+                "oldAmountOnsite": 0.0,
+                "title": "Python Advanced Practice with async and aiogram",
+                "description": "Python Advanced Practice with async and aiogram",
+                "lessons": [
+                    {
+                        "id": "0024a5d4-c4fc-445b-b5e3-6bfe0951be9e",
+                        "title": "SQLAlchemy ORM",
+                        "url": "sqlalchemy-orm",
+                        "description": "SQLAlchemy ORM",
+                        "parts": [
+                            {
+                                "id": "e3f9bf5f-8675-4da4-868e-2963f3503f99",
+                                "ord": 1,
+                                "title": "SQLAlchemy ORM",
+                                "description": "SQLAlchemy ORM",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "8faa1ff7-6c57-45f2-a957-073fae6a121b",
+                                "ord": 2,
+                                "title": "SQLAlchemy ORM",
+                                "description": "SQLAlchemy ORM",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "4a1b38f4-5bc7-4e7d-9150-a74bd47259d4",
+                                "ord": 3,
+                                "title": "SQLAlchemy ORM",
+                                "description": "SQLAlchemy ORM",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "b4688f8a-317a-4655-b232-6e8625dd2c7b",
+                                "ord": 4,
+                                "title": "SQLAlchemy ORM",
+                                "description": "SQLAlchemy ORM",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "5977bae1-7aee-4088-bc3b-720a943596ef",
+                                "ord": 5,
+                                "title": "SQLAlchemy ORM",
+                                "description": "SQLAlchemy ORM",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "88962858-23b2-4794-ade4-98ed57fed906",
+                        "title": "Alembic with sqlalchemy",
+                        "url": "alembic-with-sqlalchemy",
+                        "description": "Alembic with sqlalchemy",
+                        "parts": [
+                            {
+                                "id": "aa630c52-9446-4bce-8fe0-c65ee8dae175",
+                                "ord": 1,
+                                "title": "Alembic with sqlalchemy",
+                                "description": "Alembic with sqlalchemy",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "5738a5c0-6b8f-453e-a1c6-92ed1f7baf95",
+                                "ord": 2,
+                                "title": "Alembic with sqlalchemy",
+                                "description": "Alembic with sqlalchemy",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "2fca2c8a-acc8-4a41-8b2f-194494574bf5",
+                                "ord": 3,
+                                "title": "Alembic with sqlalchemy",
+                                "description": "Alembic with sqlalchemy",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "ae1f3c50-7ae6-45d2-aca2-4581788909aa",
+                        "title": "Httpx, yaml, csv",
+                        "url": "httpx-yaml-csv",
+                        "description": "httpx, yaml, csv",
+                        "parts": [
+                            {
+                                "id": "f172b919-f272-4ee0-89b3-3e7b30ffdf8f",
+                                "ord": 1,
+                                "title": "httpx, yaml, csv",
+                                "description": "httpx, yaml, csv",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "3e337674-4db2-4cf2-9acc-042abcc5f195",
+                                "ord": 2,
+                                "title": "httpx, yaml, csv",
+                                "description": "httpx, yaml, csv",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "90a6cca8-090d-4ea0-a00d-54f65e217f75",
+                                "ord": 3,
+                                "title": "httpx, yaml, csv",
+                                "description": "httpx, yaml, csv",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "88a4a102-db25-489f-ba16-b10817d7e4b3",
+                        "title": "Dataclasses, pydantic",
+                        "url": "dataclasses-pydantic",
+                        "description": "Dataclasses, pydantic",
+                        "parts": [
+                            {
+                                "id": "cc2818d9-004f-4760-97ba-f837e0ea9cb5",
+                                "ord": 1,
+                                "title": "Dataclasses, pydantic",
+                                "description": "Dataclasses, pydantic",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "e979aea1-f331-4648-9179-332a4e0fb1c8",
+                                "ord": 2,
+                                "title": "Dataclasses, pydantic",
+                                "description": "Dataclasses, pydantic",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "e7b0f939-ffa0-4f76-ae18-7829b0c78673",
+                                "ord": 3,
+                                "title": "Dataclasses, pydantic",
+                                "description": "Dataclasses, pydantic",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "300205f6-d25d-4c25-b450-8c6a990e94ca",
+                        "title": "AIO libs",
+                        "url": "aio-libs",
+                        "description": "AIO libs",
+                        "parts": [
+                            {
+                                "id": "9617d947-8bb5-4f20-b845-e1a0403df6b9",
+                                "ord": 1,
+                                "title": "AIO libs",
+                                "description": "AIO libs",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "d2f04df7-7585-4910-bcb1-d78617237b33",
+                                "ord": 2,
+                                "title": "AIO libs",
+                                "description": "AIO libs",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "f2ae7fcb-7166-43d6-a520-a38571dea049",
+                                "ord": 3,
+                                "title": "AIO libs",
+                                "description": "AIO libs",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "e552a132-571f-47cb-9e05-e28e769b1d18",
+                        "title": "AsyncIO, Aiohttp",
+                        "url": "asyncio-aiohttp",
+                        "description": "AsyncIO, Aiohttp",
+                        "parts": [
+                            {
+                                "id": "51118045-72c5-45be-adac-b48f9987a90b",
+                                "ord": 1,
+                                "title": "AsyncIO, Aiohttp",
+                                "description": "AsyncIO, Aiohttp",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "a10ecff9-ba36-4b71-8f33-358ab1df46a5",
+                                "ord": 1,
+                                "title": "AsyncIO, Aiohttp",
+                                "description": "AsyncIO, Aiohttp",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "1be0a9b6-4eb1-41e2-874a-cf845e2c4b38",
+                                "ord": 3,
+                                "title": "AsyncIO, Aiohttp",
+                                "description": "AsyncIO, Aiohttp",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "cc87d02b-d0d1-46bf-bace-d9951f9ed3c8",
+                                "ord": 4,
+                                "title": "AsyncIO, Aiohttp",
+                                "description": "AsyncIO, Aiohttp",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "b731adc9-1c7e-4a85-ab5c-5544a1e2bd65",
+                        "title": "Docker & Docker compose",
+                        "url": "docker-docker-compose",
+                        "description": "Docker & Docker compose",
+                        "parts": [
+                            {
+                                "id": "55a31a77-102b-4d13-b8c5-8d18a99e9a29",
+                                "ord": 1,
+                                "title": "Docker & Docker compose",
+                                "description": "Docker & Docker compose",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "8a426fac-d164-473a-885b-387f79fc3e71",
+                                "ord": 2,
+                                "title": "Docker & Docker compose",
+                                "description": "Docker & Docker compose",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "20f9d785-bdb9-4069-9633-9e0e176211c8",
+                                "ord": 3,
+                                "title": "Docker & Docker compose",
+                                "description": "Docker & Docker compose",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "db546e88-f5cf-4d0e-ab35-5d45c741bda8",
+                                "ord": 4,
+                                "title": "Docker & Docker compose",
+                                "description": "Docker & Docker compose",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "fe33823d-62a9-44e6-ace3-56f629b0a59d",
+                        "title": "Online do’kon telegram boti 1-part (aiogram based)",
+                        "url": "online-dokon-telegram-boti-1-part-aiogram-based",
+                        "description": "Online do’kon telegram boti 1-part (aiogram based)",
+                        "parts": [
+                            {
+                                "id": "495d3362-38ad-4615-a23c-f74f5e69216e",
+                                "ord": 1,
+                                "title": "Online do’kon telegram boti 1-part (aiogram based)",
+                                "description": "Online do’kon telegram boti 1-part (aiogram based)",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "ddbdcb13-1625-4577-a3a0-1a0485b9429a",
+                                "ord": 2,
+                                "title": "Online do’kon telegram boti 1-part (aiogram based)",
+                                "description": "Online do’kon telegram boti 1-part (aiogram based)",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "0e614cff-f96a-4eb0-b2e2-88c1f2f97d9d",
+                                "ord": 3,
+                                "title": "Online do’kon telegram boti 1-part (aiogram based)",
+                                "description": "Online do’kon telegram boti 1-part (aiogram based)",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "56dade18-ec62-4035-be20-b8a94ead2c62",
+                        "title": "Online do’kon telegram boti 2-part (aiogram based)",
+                        "url": "online-dokon-telegram-boti-2-part-aiogram-based",
+                        "description": "Online do’kon telegram boti 2-part (aiogram based)",
+                        "parts": [
+                            {
+                                "id": "b79a78d8-32e0-4ac3-aa29-5aa9ef9e980c",
+                                "ord": 1,
+                                "title": "Online do’kon telegram boti 2-part (aiogram based)",
+                                "description": "Online do’kon telegram boti 2-part (aiogram based)",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "f187000b-6029-47f0-b2ae-8c7e11d8cce4",
+                                "ord": 2,
+                                "title": "Online do’kon telegram boti 2-part (aiogram based)",
+                                "description": "Online do’kon telegram boti 2-part (aiogram based)",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "45c16a2a-9222-494e-b0de-172ed5f43435",
+                                "ord": 3,
+                                "title": "Online do’kon telegram boti 2-part (aiogram based)",
+                                "description": "Online do’kon telegram boti 2-part (aiogram based)",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "1ce96875-169c-4e0e-9878-b9240f0fc0e1",
+                                "ord": 4,
+                                "title": "Online do’kon telegram boti 2-part (aiogram based)",
+                                "description": "Online do’kon telegram boti 2-part (aiogram based)",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "aae5f606-a7fa-49c9-afc3-1988d9a6c7de",
+                                "ord": 5,
+                                "title": "Online do’kon telegram boti 2-part (aiogram based)",
+                                "description": "Online do’kon telegram boti 2-part (aiogram based)",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "988711bd-63df-49a6-b352-1830eeba3a0b",
+                                "ord": 6,
+                                "title": "Online do’kon telegram boti 2-part (aiogram based)",
+                                "description": "Online do’kon telegram boti 2-part (aiogram based)",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "bdc35d82-ba54-4a90-83ff-d281f0043efb",
+                                "ord": 7,
+                                "title": "Online do’kon telegram boti 2-part (aiogram based)",
+                                "description": "Online do’kon telegram boti 2-part (aiogram based)",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "56da492c-0e85-49de-8d04-5c6ad1c2c661",
+                                "ord": 8,
+                                "title": "Online do’kon telegram boti 2-part (aiogram based)",
+                                "description": "Online do’kon telegram boti 2-part (aiogram based)",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "7d1b7fb6-82a7-42fe-8143-af9b86b81204",
+                                "ord": 9,
+                                "title": "Online do’kon telegram boti 2-part (aiogram based)",
+                                "description": "Online do’kon telegram boti 2-part (aiogram based)",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "727ff51c-91d3-4be8-98c2-f2e657ba6a3f",
+                        "title": "Online do’kon telegram boti 3-part (aiogram based)",
+                        "url": "online-dokon-telegram-boti-3-part-aiogram-based",
+                        "description": "Online do’kon telegram boti 3-part (aiogram based)",
+                        "parts": [
+                            {
+                                "id": "2ddb133f-79fb-4884-bd9c-4dd2709aa1df",
+                                "ord": 1,
+                                "title": "Online do’kon telegram boti 3-part (aiogram based)",
+                                "description": "Online do’kon telegram boti 3-part (aiogram based)",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "47897f46-2309-42d5-9d4d-ce8e5a7f9a4e",
+                                "ord": 2,
+                                "title": "Online do’kon telegram boti 3-part (aiogram based)",
+                                "description": "Online do’kon telegram boti 3-part (aiogram based)",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "90fc77ae-2f14-45ed-a6db-da4b4911a360",
+                                "ord": 3,
+                                "title": "Online do’kon telegram boti 3-part (aiogram based)",
+                                "description": "Online do’kon telegram boti 3-part (aiogram based)",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "08d26070-1fbb-49e0-83c2-47164356aa29",
+                                "ord": 4,
+                                "title": "Online do’kon telegram boti 3-part (aiogram based)",
+                                "description": "Online do’kon telegram boti 3-part (aiogram based)",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "43187b7b-8261-4a7a-80bc-26c53c374d81",
+                                "ord": 5,
+                                "title": "Online do’kon telegram boti 3-part (aiogram based)",
+                                "description": "Online do’kon telegram boti 3-part (aiogram based)",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "f86d5138-6982-4e22-9104-87fba8e5742d",
+                                "ord": 6,
+                                "title": "Online do’kon telegram boti 3-part (aiogram based)",
+                                "description": "Online do’kon telegram boti 3-part (aiogram based)",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "c3eb1151-bec4-4696-8720-f8b65b4c0efd",
+                                "ord": 7,
+                                "title": "Online do’kon telegram boti 3-part (aiogram based)",
+                                "description": "Online do’kon telegram boti 3-part (aiogram based)",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "333d509c-e0c5-412c-838b-c7800db050d2",
+                        "title": "Telegram botni deploy qilish webhook + ssl + nginx",
+                        "url": "telegram-botni-deploy-qilish-webhook-ssl-nginx",
+                        "description": "Telegram botni deploy qilish webhook + ssl + nginx",
+                        "parts": [
+                            {
+                                "id": "428ea5c9-2b29-444a-80ce-593fa5276c7e",
+                                "ord": 1,
+                                "title": "Telegram botni deploy qilish webhook + ssl + nginx",
+                                "description": "Telegram botni deploy qilish webhook + ssl + nginx",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "0a8dc8ca-6d2c-4a7d-a2b8-af2b1cb2ae62",
+                                "ord": 2,
+                                "title": "Telegram botni deploy qilish webhook + ssl + nginx",
+                                "description": "Telegram botni deploy qilish webhook + ssl + nginx",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "f304b4b2-e61c-4d08-b006-4e6602f9257e",
+                                "ord": 3,
+                                "title": "Telegram botni deploy qilish webhook + ssl + nginx",
+                                "description": "Telegram botni deploy qilish webhook + ssl + nginx",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "3f16d25d-9b26-489c-a90c-dba5293078ed",
+                                "ord": 4,
+                                "title": "Telegram botni deploy qilish webhook + ssl + nginx",
+                                "description": "Telegram botni deploy qilish webhook + ssl + nginx",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "22b8ac4c-b757-4109-b4fa-d91f8d2c0526",
+                                "ord": 5,
+                                "title": "Telegram botni deploy qilish webhook + ssl + nginx",
+                                "description": "Telegram botni deploy qilish webhook + ssl + nginx",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    }
+                ],
+                "selected": false,
+                "buyed": null,
+                "supportDays": 45,
+                "stopped": null,
+                "currentLessonUrl": "",
+                "sale": true
+            },
+            {
+                "id": "64e713dd-a73d-419f-9653-1ecc4855f99c",
+                "amount": 790000.0,
+                "amountOnsite": 0.0,
+                "oldAmount": 0.0,
+                "oldAmountOnsite": 0.0,
+                "title": "Django Template based",
+                "description": "Django Template based",
+                "lessons": [
+                    {
+                        "id": "52644e44-2b85-4524-a00a-19e9fc9950ec",
+                        "title": "Backendga kirish",
+                        "url": "backendga-kirish",
+                        "description": "Backendga kirish",
+                        "parts": [
+                            {
+                                "id": "90c38fcf-98c6-480a-af1e-d3180cdf3d51",
+                                "ord": 1,
+                                "title": "1-qism",
+                                "description": "1-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "6cb26cf3-12ab-44b1-a41b-50d5837025e6",
+                                "ord": 2,
+                                "title": "2-qism",
+                                "description": "2-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "6e1dff6d-8d85-4ef0-893d-7aaff60fd127",
+                                "ord": 3,
+                                "title": "3-qism",
+                                "description": "3-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "048e9418-53f3-4716-a941-045a5e0847da",
+                        "title": "Template bilan ishlash, static fayllar, base.htmlga ajratish",
+                        "url": "template-bilan-ishlash-static-fayllar-basehtmlga-ajratish",
+                        "description": "Template bilan ishlash, static fayllar, base.htmlga ajratish",
+                        "parts": [
+                            {
+                                "id": "e668acc2-2bef-4f10-a2ce-c2ae6cfaa957",
+                                "ord": 1,
+                                "title": "1-qism",
+                                "description": "1-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "0fb3f5e9-3b33-422e-bf44-8716b4793433",
+                                "ord": 2,
+                                "title": "2-qism",
+                                "description": "2-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "2bdc2f72-6030-41c1-8d45-9edab0ab1cc3",
+                                "ord": 3,
+                                "title": "3-qism",
+                                "description": "3-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "8a060d71-dae8-4866-a09f-fed5614e4d20",
+                        "title": "Django admin page",
+                        "url": "django-admin-page",
+                        "description": "Django admin",
+                        "parts": [
+                            {
+                                "id": "eae2a2b3-6df0-4c32-aafb-4cf3763daefd",
+                                "ord": 1,
+                                "title": "1-qism",
+                                "description": "1-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "e0f6790e-d42f-4e00-8d45-38c6762927af",
+                                "ord": 2,
+                                "title": "2-qism",
+                                "description": "2-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "ba21193f-e9f7-4f03-b930-87aa65b8e9dd",
+                                "ord": 3,
+                                "title": "3-qism",
+                                "description": "3-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "b16352bb-0b02-4b4f-a7c9-4365d9d6a37f",
+                        "title": "Django ORM",
+                        "url": "django-orm",
+                        "description": "Django ORM",
+                        "parts": [
+                            {
+                                "id": "6d9da0e2-6b95-4961-ba9e-6cc5f03a0b87",
+                                "ord": 1,
+                                "title": "1-qism",
+                                "description": "1-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "3327b785-5318-420e-b805-0760cf25f94e",
+                                "ord": 2,
+                                "title": "2-qism",
+                                "description": "2-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "16d5760a-5993-4b5d-a429-182b54d44700",
+                                "ord": 3,
+                                "title": "3-qism",
+                                "description": "3-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "85b3e9a4-3c1d-45c2-b0bf-896027e77728",
+                        "title": "Django custom commands",
+                        "url": "django-custom-commands",
+                        "description": "Django custom commands",
+                        "parts": [
+                            {
+                                "id": "a87cc669-a363-4afd-b59a-33ec92b5604d",
+                                "ord": 1,
+                                "title": "1-qism",
+                                "description": "1-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "c5f0b0dd-402b-49a5-bb9c-6f502e44602a",
+                                "ord": 2,
+                                "title": "2-qism",
+                                "description": "2-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "0838b118-e40f-4b05-9b68-dda47b928544",
+                                "ord": 3,
+                                "title": "3-qism",
+                                "description": "3-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "826b1137-c8b0-4f47-aad3-237e0c7c59a3",
+                        "title": "Django 3rd party packages - import-export, django filters, mptt, django-baton, django-crispy-form",
+                        "url": "django-3rd-party-packages---import-export-django-filters-mptt-django-baton-django-crispy-form",
+                        "description": "Django 3rd party packages - import-export, django filters, mptt, django-baton, django-crispy-form",
+                        "parts": [
+                            {
+                                "id": "d1b1532d-42f7-46f4-a7d1-7b2411ceb96c",
+                                "ord": 1,
+                                "title": "1-qism",
+                                "description": "1-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "f7a24518-1967-4098-a23e-606fbf3286c7",
+                                "ord": 2,
+                                "title": "2-qism",
+                                "description": "2-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "2231e6ae-3c5a-432f-8314-32606cd971c3",
+                                "ord": 3,
+                                "title": "3-qism",
+                                "description": "3-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "140f7668-ed1f-4372-b00d-d8fb4dc6064e",
+                        "title": "Minio, ckeditor5",
+                        "url": "minio-ckeditor5",
+                        "description": "minio, ckeditor5",
+                        "parts": [
+                            {
+                                "id": "6344ecc5-68a9-4aa7-b1d0-7e90170a1202",
+                                "ord": 1,
+                                "title": "1-qism",
+                                "description": "1-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "0d49d0cb-c409-4c47-a71b-24a3c7088a97",
+                                "ord": 2,
+                                "title": "2-qism",
+                                "description": "2-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "34b2606a-57ac-4e87-9a3e-9bf2a81ed7ff",
+                                "ord": 3,
+                                "title": "3-qism",
+                                "description": "3-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "d6a9e0d8-4899-4721-93d2-eec582442ec3",
+                        "title": "Testing templated based",
+                        "url": "testing-templated-based",
+                        "description": "testing templated based",
+                        "parts": [
+                            {
+                                "id": "6e19704c-df72-4e11-90c9-83698703f33e",
+                                "ord": 1,
+                                "title": "1-qism",
+                                "description": "1-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "534f9570-40a6-4ef0-8d93-7ff54a74ade2",
+                                "ord": 2,
+                                "title": "2-qism",
+                                "description": "2-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "2b54e37d-3ed2-4ff3-9ac3-1c94748e2567",
+                                "ord": 3,
+                                "title": "3-qism",
+                                "description": "3-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "97a01c18-63dc-4dfc-9510-281d1f361a38",
+                        "title": "Celery tasklar bilan ishlash",
+                        "url": "celery-tasklar-bilan-ishlash",
+                        "description": "celery tasklar bilan ishlash",
+                        "parts": [
+                            {
+                                "id": "d4079a16-8758-4878-bfeb-90725629aa67",
+                                "ord": 1,
+                                "title": "1-qism",
+                                "description": "1-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "56af73e8-61b3-44fc-858c-494698ae5a52",
+                                "ord": 2,
+                                "title": "2-qism",
+                                "description": "2-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "7ebf5aef-0102-4d4e-90a8-497a99052e4b",
+                                "ord": 3,
+                                "title": "3-qism",
+                                "description": "3-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "15ac47ee-e300-439e-93b9-836582d53bdc",
+                        "title": "Celery-beat, celery-results",
+                        "url": "celery-beat-celery-results",
+                        "description": "celery-beat, celery-results",
+                        "parts": [
+                            {
+                                "id": "02980418-6101-41a1-bf89-b05db2ba7bd3",
+                                "ord": 1,
+                                "title": "1-qism",
+                                "description": "1-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "5b98fd8d-bff6-4ac9-a470-85112aede4a2",
+                                "ord": 2,
+                                "title": "2-qism",
+                                "description": "2-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "91dc5f43-ba90-45bf-b6ad-5f72bdcf1a3b",
+                        "title": "Django publish own package",
+                        "url": "django-publish-own-package",
+                        "description": "django publish own package",
+                        "parts": [
+                            {
+                                "id": "92d84b5c-d0c6-4644-b719-6a79dd292ab4",
+                                "ord": 1,
+                                "title": "1-qism",
+                                "description": "1-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "c4ed0965-c102-49d3-afda-77a44180c058",
+                                "ord": 1,
+                                "title": "2-qism",
+                                "description": "2-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "6140babb-8b89-4091-b4a1-d94c6b19c50f",
+                                "ord": 3,
+                                "title": "3-qism",
+                                "description": "3-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    },
+                    {
+                        "id": "b46f57d3-49fc-4d3d-b5bf-e912b676af80",
+                        "title": "Optimization with django-debug-toolbar",
+                        "url": "optimization-with-django-debug-toolbar",
+                        "description": "optimization with django-debug-toolbar",
+                        "parts": [
+                            {
+                                "id": "d9612b23-57a1-4118-8d21-e13309dbf2d5",
+                                "ord": 1,
+                                "title": "1-qism",
+                                "description": "1-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "b5d608f8-9e7e-4850-b85b-e2cdb006bd6b",
+                                "ord": 2,
+                                "title": "2-qism",
+                                "description": "2-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            },
+                            {
+                                "id": "19c89571-16b3-4fc7-9526-9063de1efa17",
+                                "ord": 3,
+                                "title": "3-qism",
+                                "description": "3-qism",
+                                "mediaCode": null,
+                                "mediaUrl": null,
+                                "isYoutube": false,
+                                "hash": null
+                            }
+                        ],
+                        "tasks": null,
+                        "tutorials": null,
+                        "downloads": null,
+                        "knowledges": null,
+                        "isOpen": null
+                    }
+                ],
+                "selected": false,
+                "buyed": null,
+                "supportDays": 45,
+                "stopped": null,
+                "currentLessonUrl": "",
+                "sale": true
+            },
+            {
+                "id": "8f498748-ee38-48a1-95b1-cb2a4c38591f",
+                "amount": 990000.0,
+                "amountOnsite": 0.0,
+                "oldAmount": 0.0,
+                "oldAmountOnsite": 0.0,
+                "title": "Django Rest Framework",
+                "description": "Django Rest Framework",
+                "lessons": [],
+                "selected": false,
+                "buyed": null,
+                "supportDays": 45,
+                "stopped": null,
+                "currentLessonUrl": "",
+                "sale": false
+            },
+            {
+                "id": "7bbed029-3154-418a-b054-bdc5a2a40cc8",
+                "amount": 990000.0,
+                "amountOnsite": 0.0,
+                "oldAmount": 0.0,
+                "oldAmountOnsite": 0.0,
+                "title": "FastAPI ",
+                "description": "FastAPI ",
+                "lessons": [],
+                "selected": false,
+                "buyed": null,
+                "supportDays": 45,
+                "stopped": null,
+                "currentLessonUrl": "",
+                "sale": false
+            },
+            {
+                "id": "4b9aea7b-0c53-4799-afa7-0143fe7451b2",
+                "amount": 990000.0,
+                "amountOnsite": 0.0,
+                "oldAmount": 0.0,
+                "oldAmountOnsite": 0.0,
+                "title": "DevOps",
+                "description": "DevOps",
+                "lessons": [],
+                "selected": false,
+                "buyed": null,
+                "supportDays": 45,
+                "stopped": null,
+                "currentLessonUrl": "",
+                "sale": false
+            },
+            {
+                "id": "7395593f-cc13-4a56-901e-12bc5bdd9069",
+                "amount": 990000.0,
+                "amountOnsite": 0.0,
+                "oldAmount": 0.0,
+                "oldAmountOnsite": 0.0,
+                "title": "Data Structure and Algorithm",
+                "description": "Data Structure and Algorithm",
+                "lessons": [],
+                "selected": false,
+                "buyed": null,
+                "supportDays": 45,
+                "stopped": null,
+                "currentLessonUrl": "",
+                "sale": false
+            }
+        ],
+        "requirements": [],
+        "online": true,
+        "onsite": false,
+        "offline": false,
+        "discountAmountOnline": 0,
+        "discountAmountOnsite": 0,
+        "metaTitle": "Python Development 2025",
+        "metaDescription": "Python Development 2025",
+        "canonicalUrl": "https://pdp.uz/course/python-development-2025-new",
+        "metaImg": null,
+        "mentors": [
+            {
+                "companyAttachmentId": "576dca90-1370-48fc-a06e-aa08f0913217",
+                "position": "Python Backend Developer",
+                "firstName": "Xolmo'min",
+                "lastName": "Abdumo'minov",
+                "photoId": "344e1c90-e417-41b1-ae6a-50e8f56a8dc1"
+            }
+        ]
+    },
+    "total": null
+}
+
+https://online.pdp.uz/api/lesson/lessons_by_id?lessonId=d964143b-1d76-40df-98ed-f34fb4793e2f
+{
+    "success": true,
+    "message": "",
+    "data": {
+        "id": "d964143b-1d76-40df-98ed-f34fb4793e2f",
+        "url": "set-va-dict-methodlari-va-ularni-qollanilishi",
+        "description": "set va dict methodlari va ularni qo’llanilishi",
+        "parts": [
+            {
+                "id": "389efe53-e780-4c0f-97a6-15d12a1f073e",
+                "description": "Set va uning methodlari",
+                "isYoutube": false,
+                "mediaCode": "f0DkmsFy",
+                "mediaUrl": "https://play.boomstream.com/f0DkmsFy",
+                "title": "Set va uning methodlari",
+                "ord": 1
+            },
+            {
+                "id": "f235e216-fbce-42bf-ab9b-ccb94f8c3648",
+                "description": "Dict methods va builtin funksiyalari",
+                "isYoutube": false,
+                "mediaCode": "wBWd70eE",
+                "mediaUrl": "https://play.boomstream.com/wBWd70eE",
+                "title": "Dict methods va builtin funksiyalari",
+                "ord": 1
+            },
+            {
+                "id": "69d8686b-07cb-4fee-a37e-c54a762bad8d",
+                "description": "Set va uning methodlari II",
+                "isYoutube": false,
+                "mediaCode": "BBAzM1i7",
+                "mediaUrl": "https://play.boomstream.com/BBAzM1i7",
+                "title": "Set va uning methodlari II",
+                "ord": 2
+            }
+        ],
+        "tasks": [
+            {
+                "id": "275bb09b-bf63-49f6-a935-ea6d8a9727c0",
+                "description": "A va B o'quv markazlari bor, va shu ikki o'quv markazda ham o'qiydigan o'quvchilarni toping va tekshirish maqsadida dastur kodi yuboring.\na_edu_center = [\"ali\", \"tohir\", \"jamshid\"]\nb_edu_center = [\"davron\", \"nurbek\", \"ali\"]",
+                "title": "1-vazifa",
+                "mustComplete": false,
+                "files": [],
+                "taskPriority": "HARD",
+                "ord": 1
+            },
+            {
+                "id": "bb6bc616-8a86-40dc-9ba1-423f07f07222",
+                "description": "a = \"python bu dasturlash tili\" berilgan stringdagi eng ko'p uchragan belgini toping va tekshirish maqsadida dastur kodi yuboring.",
+                "title": "2-vazifa",
+                "mustComplete": false,
+                "files": [],
+                "taskPriority": "EASY",
+                "ord": 2
+            },
+            {
+                "id": "eaad2678-9755-4035-ad4e-2fc177251276",
+                "description": "ichma ich dictdan eng ko'p kalitga ega bo'lganini toping va tekshirish maqsadida dastur kodi yuboring.",
+                "title": "3-vazifa",
+                "mustComplete": false,
+                "files": [],
+                "taskPriority": "HARD",
+                "ord": 3
+            },
+            {
+                "id": "c7fdde21-6a07-4f88-a085-e06668255277",
+                "description": "tuple ichida 1yil davomida kursga to'lov qilgan studentlar ismi keltirilgan, jami nechta student to'lov qilganligini aniqlang va tekshirish maqsadida dastur kodi yuboring.",
+                "title": "4-vazifa",
+                "mustComplete": false,
+                "files": [],
+                "taskPriority": "EASY",
+                "ord": 4
+            },
+            {
+                "id": "fccf7f3b-255f-48cd-97c2-0daa37054c31",
+                "description": "a va b o'quv markazlari bor, ikkala o'quv markazda ham o'qiydigan o'quvchilar bor, faqat 1ta o'quv markazda o'qiydigan o'quvchilarni chiqaring va tekshirish maqsadida dastur kodi yuboring.",
+                "title": "5-vazifa",
+                "mustComplete": false,
+                "files": [],
+                "taskPriority": "HARD",
+                "ord": 5
+            }
+        ],
+        "tasksBootcamp": [],
+        "tutorials": [],
+        "downloads": [],
+        "knowledges": [],
+        "usefulLinks": [],
+        "isOpen": true,
+        "title": "set va dict methodlari va ularni qo’llanilishi",
+        "ord": 3
+    },
+    "total": null
+}
